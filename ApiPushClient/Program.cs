@@ -6,7 +6,7 @@ namespace ApiPushClient
     class Program
     {
         private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
-        // Jamil authentication key: "08cb8220e51f4fc3a14b1e8663b217e8"
+      
         private static string authenticationkey = "08cb8220e51f4fc3a14b1e8663b217e8";
         private static Logger logger;
         private static ApiPushClient client;
